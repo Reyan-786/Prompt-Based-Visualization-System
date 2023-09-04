@@ -1,0 +1,54 @@
+.input-rounded {
+    border-radius:40px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    border: 2px solid black;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading{ 
+    text-align: center;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.instructions {
+    background-color: #fff;
+    text-align: center;
+    font-size: 20px; 
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    
+}
+
+.appending-text {
+    font-size: 200px; /* Adjust the font size as needed */
+    margin-left: 0px; 
+}
+
+.rounded-button { 
+    border-radius: 40px;
+    margin-left: 10px;
+}
+
+
+.visualization-window {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
