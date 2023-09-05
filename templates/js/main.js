@@ -20,7 +20,6 @@ visualizationButton.addEventListener('click', async function () {
     document.getElementById('viz-window').appendChild(img);
 });
 
-// api-key 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
 const clipBoard = new ClipBoardJS('#copyButton');
 clipBoard.on('success',function(e){
     e.clearSelection();
