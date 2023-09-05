@@ -29,12 +29,11 @@ def generate_figure(prompt):
     )
 
     generated_code = response.choices[0].text.strip()
-    print(generated_code)
     fig, ax = plt.subplots()
     exec(generated_code)
     fig.savefig('templates/images/image1.png')
-
-    return "images/image1.png"
+    print(generated_code)
+    return generated_code 
     
 eel.start('index.html', size=(1200, 600))
 # make a scatter plot for x vs y where x is [5, 7, 8, 7, 2, 17, 2, 9, 4, 11, 12, 9, 6] and  y  is [99, 86, 87, 88, 100, 86, 103, 87, 94, 78, 77, 85, 86]
